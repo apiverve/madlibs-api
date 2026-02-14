@@ -17,14 +17,11 @@ def call_madlibs_api():
     Make a GET request to the Mad Libs Generator API
     """
     try:
-        # Query parameters
-        params &#x3D; {&#x27;category&#x27;: &#x27;funny&#x27;, &#x27;count&#x27;: 1}
-
         headers = {
             'x-api-key': API_KEY
         }
 
-        response = requests.get(API_URL, headers=headers, params=params)
+        response = requests.get(API_URL, headers=headers)
 
         # Raise exception for HTTP errors
         response.raise_for_status()
