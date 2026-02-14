@@ -15,7 +15,7 @@ const api = new madlibsAPI({
 
 // Example query
 var query = {
-  category: "funny",
+  category: "random",
   count: 1
 };
 
