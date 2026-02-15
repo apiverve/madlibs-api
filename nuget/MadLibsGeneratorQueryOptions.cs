@@ -11,15 +11,13 @@ namespace APIVerve.API.MadLibsGenerator
     public class MadLibsGeneratorQueryOptions
     {
         /// <summary>
-        /// Category: random, adventure, funny, fairytale, scifi, romance, horror
-        /// Example: funny
+        /// Story category
         /// </summary>
         [JsonProperty("category")]
         public string Category { get; set; }
 
         /// <summary>
-        /// Number of stories (1-5)
-        /// Example: 1
+        /// Number of stories
         /// </summary>
         [JsonProperty("count")]
         public string Count { get; set; }
