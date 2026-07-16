@@ -25,6 +25,9 @@ namespace APIVerve.API.MadLibsGenerator
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -33,13 +36,31 @@ namespace APIVerve.API.MadLibsGenerator
         public Story[] Stories { get; set; }
 
         [JsonProperty("count")]
-        public long Count { get; set; }
+        public long? Count { get; set; }
 
         [JsonProperty("category")]
         public string Category { get; set; }
 
         [JsonProperty("html")]
         public string Html { get; set; }
+
+        [JsonProperty("image")]
+        public Image Image { get; set; }
+    }
+
+    public partial class Image
+    {
+        [JsonProperty("imageName")]
+        public string ImageName { get; set; }
+
+        [JsonProperty("format")]
+        public string Format { get; set; }
+
+        [JsonProperty("downloadURL")]
+        public Uri DownloadUrl { get; set; }
+
+        [JsonProperty("expires")]
+        public long? Expires { get; set; }
     }
 
     public partial class Story
@@ -54,7 +75,7 @@ namespace APIVerve.API.MadLibsGenerator
         public Blank[] Blanks { get; set; }
 
         [JsonProperty("blankCount")]
-        public long BlankCount { get; set; }
+        public long? BlankCount { get; set; }
 
         [JsonProperty("category")]
         public string Category { get; set; }
@@ -63,12 +84,24 @@ namespace APIVerve.API.MadLibsGenerator
     public partial class Blank
     {
         [JsonProperty("id")]
-        public long Id { get; set; }
+        public long? Id { get; set; }
 
         [JsonProperty("type")]
         public string Type { get; set; }
 
         [JsonProperty("label")]
         public string Label { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
