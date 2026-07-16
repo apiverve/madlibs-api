@@ -20,6 +20,6 @@ namespace APIVerve.API.MadLibsGenerator
         /// Number of stories
         /// </summary>
         [JsonProperty("count")]
-        public string Count { get; set; }
+        public int? Count { get; set; }
     }
 }
