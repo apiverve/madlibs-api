@@ -2,17 +2,17 @@ from setuptools import setup, find_packages
 
 setup(
     name='apiverve_madlibsgenerator',
-    version='1.1.14',
+    version='1.2.2',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
         'requests',
         'setuptools'
     ],
-    description='Mad Libs Generator creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.',
+    description='Mad Libs Generator is a Mad Libs API that creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.',
     author='APIVerve',
     author_email='hello@apiverve.com',
-    url='https://apiverve.com/marketplace/madlibs?utm_source=pypi&utm_medium=homepage',
+    url='https://apiverve.com/marketplace/madlibs?utm_source=pypi&utm_medium=referral&utm_content=homepage',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
