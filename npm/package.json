@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/madlibs",
-  "version": "1.2.0",
-  "description": "Mad Libs Generator creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.",
+  "version": "1.2.2",
+  "description": "Mad Libs Generator is a Mad Libs API that creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "mad libs", "fill in the blank", "word game", "story generator", "party game"
+    "mad libs api", "madlibs api", "mad libs generator", "fill in the blank story generator", "mad libs"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/madlibs-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/madlibs?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/madlibs?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
