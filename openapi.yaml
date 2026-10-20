@@ -2,8 +2,8 @@ openapi: 3.0.4
 info:
   title: Mad Libs Generator
   description: >-
-    Mad Libs Generator creates fill-in-the-blank story templates with prompts
-    for nouns, verbs, adjectives, and more.
+    Mad Libs Generator is a Mad Libs API that creates fill-in-the-blank story
+    templates with prompts for nouns, verbs, adjectives, and more.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +18,7 @@ servers:
 paths:
   /v1/madlibs:
     get:
-      summary: Generate Mad Libs
+      summary: Mad Libs Generator
       description: Get mad libs story templates
       operationId: madlibs
       parameters:
@@ -189,8 +189,7 @@ paths:
                   image:
                     imageName: 25d0dd78-3ad1-4f14-a30f-f8bdd8ebcc33_madlibs.png
                     format: .png
-                    downloadURL: >-
-                      https://storage.googleapis.com/apiverve/APIData/madlibs/25d0dd78-3ad1-4f14-a30f-f8bdd8ebcc33_madlibs.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1766010349&Signature=e4owJidlQu2GZKe1GSuClCNSpOX1UQkxdweeS08IVOxkNscZGNr33BdYhNSG%2BuVIZ2XdEeAc3o2%2BY2hxP01APjgqMgCe4QvHRBgbCLPUiueHaczDJ1m1ZBI41aRaYjM8kdB7M0iYLNhdgqogXTYs9Zc%2FaRj9a6txpLz7fb2YexgG0fXhkcZuGeCb1haQlMTHL1YZbh9zJIKgHSqMhKK3jqhf0stuIDXIWkWdiK6fbP1B2aZkomqwpbx3iQKwbhca8rwFMWjUMRN5fspY%2FRtNbS7kIWaznc07VaBloITlQktm%2FMMojDc6QSanGeegRKealslcO53diZRsdLTZvB3wAQ%3D%3D
+                    downloadURL: https://storage.googleapis.com/apiverve/APIData/madlibs/25d0dd78-3ad1-4f14-a30f-f8bdd8ebcc33_madlibs.png?GoogleAccessId=635500398038-compute%40developer.gserviceaccount.com&Expires=1766010349&Signature=e4owJidlQu2GZKe1GSuClCNSpOX1UQkxdweeS08IVOxkNscZGNr33BdYhNSG%2BuVIZ2XdEeAc3o2%2BY2hxP01APjgqMgCe4QvHRBgbCLPUiueHaczDJ1m1ZBI41aRaYjM8kdB7M0iYLNhdgqogXTYs9Zc%2FaRj9a6txpLz7fb2YexgG0fXhkcZuGeCb1haQlMTHL1YZbh9zJIKgHSqMhKK3jqhf0stuIDXIWkWdiK6fbP1B2aZkomqwpbx3iQKwbhca8rwFMWjUMRN5fspY%2FRtNbS7kIWaznc07VaBloITlQktm%2FMMojDc6QSanGeegRKealslcO53diZRsdLTZvB3wAQ%3D%3D
                     expires: 1766010349930
         '401':
           description: Your request was not authorized, or your API Key was invalid
