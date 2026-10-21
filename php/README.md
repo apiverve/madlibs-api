@@ -1,6 +1,6 @@
 # Mad Libs Generator API - PHP Package
 
-Mad Libs Generator creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.
+Mad Libs Generator is a Mad Libs API that creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.
 
 ## Installation
 
@@ -167,11 +167,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/madlibs?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/madlibs?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/madlibs?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/madlibs?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/madlibs?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/madlibs?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License

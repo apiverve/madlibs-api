@@ -1,7 +1,7 @@
 {
     "name": "apiverve/madlibs",
-    "description": "Mad Libs Generator creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.",
-    "version": "1.2.0",
+    "description": "Mad Libs Generator is a Mad Libs API that creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "madlibs",
-        "mad libs",
-        "fill in the blank",
-        "word game",
-        "story generator",
-        "party game"
+        "mad libs api",
+        "madlibs api",
+        "mad libs generator",
+        "fill in the blank story generator",
+        "mad libs"
     ],
-    "homepage": "https://apiverve.com/marketplace/madlibs?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/madlibs?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/madlibs",
