@@ -1,6 +1,6 @@
 name: apiverve_madlibs
 description: "Mad Libs Generator is a Mad Libs API that creates fill-in-the-blank story templates with prompts for nouns, verbs, adjectives, and more."
-version: 1.2.5
+version: 1.2.6
 homepage: https://apiverve.com/marketplace/madlibs?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/madlibs-api/tree/main/dart
 
